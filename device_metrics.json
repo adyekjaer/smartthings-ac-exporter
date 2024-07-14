@@ -1,0 +1,24 @@
+{
+  "whitelist": {
+    "air_conditioner_mode": { "type": "gauge", "description": "Air conditioner mode like cool, heat" },
+    "spi_mode": { "type": "gauge", "description": "Unknown"},
+    "ac_optional_mode": { "type": "gauge", "description": "Air conditioner sub mode like off, smart, quiet" },
+    "switch": { "type": "gauge", "description": "Turned on or off"},
+    "ac_tropical_night_mode_level": { "type": "gauge", "description": "Tropical night mode level" },
+    "fan_mode": { "type": "gauge", "description": "Fan mode operation like high, low"},
+    "fan_oscillation_mode": { "type": "gauge", "description": "Fan oscillation mode like fixed, vertical"},
+    "temperature": { "type": "gauge", "description": "Room temperature"},
+    "cooling_setpoint": { "type": "gauge", "description": "Temperature setting" },
+    "volume": { "type": "gauge", "description": "Unknown"},
+    "power_consumption": { "type": "sub_metric", "description": ""},
+    "auto_cleaning_mode": { "type": "gauge", "description": "Auto cleaning on of off" },
+    "status": { "type": "gauge", "description": "Readiness of AC"},
+    "dust_filter_status": { "type": "gauge", "description": "Dust filter status"},
+    "energy": { "type": "counter", "description": "Energy spend"},
+    "delta_energy": { "type": "gauge", "description":"Delta energy spend" },
+    "power": { "type": "gauge", "description": "Power spend"},
+    "power_energy": { "type": "gauge", "description": "Power Energy spend"},
+    "persisted_energy": { "type": "counter", "description": "Total energy spend" },
+    "energy_saved": { "type": "gauge", "description": "Energy saved"}
+  }
+}
